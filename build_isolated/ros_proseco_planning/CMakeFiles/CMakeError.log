@@ -1,0 +1,83 @@
+Determining if files valgrind/callgrind.h exist failed with the following output:
+Change Dir: /home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_42010/fast && /usr/bin/make  -f CMakeFiles/cmTC_42010.dir/build.make CMakeFiles/cmTC_42010.dir/build
+make[1]: 进入目录“/home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_42010.dir/FOUND_CALLGRIND_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_42010.dir/FOUND_CALLGRIND_H.c.o -c /home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CheckIncludeFiles/FOUND_CALLGRIND_H.c
+/home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CheckIncludeFiles/FOUND_CALLGRIND_H.c:2:10: fatal error: valgrind/callgrind.h: 没有那个文件或目录
+    2 | #include <valgrind/callgrind.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_42010.dir/build.make:78：CMakeFiles/cmTC_42010.dir/FOUND_CALLGRIND_H.c.o] 错误 1
+make[1]: 离开目录“/home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_42010/fast] 错误 2
+
+
+Source:
+/* */
+#include <valgrind/callgrind.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5b522/fast && /usr/bin/make  -f CMakeFiles/cmTC_5b522.dir/build.make CMakeFiles/cmTC_5b522.dir/build
+make[1]: 进入目录“/home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5b522.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5b522.dir/src.c.o -c /home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5b522
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b522.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5b522.dir/src.c.o -o cmTC_5b522 
+/usr/bin/ld: CMakeFiles/cmTC_5b522.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5b522.dir/build.make:99：cmTC_5b522] 错误 1
+make[1]: 离开目录“/home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_5b522/fast] 错误 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_33c4a/fast && /usr/bin/make  -f CMakeFiles/cmTC_33c4a.dir/build.make CMakeFiles/cmTC_33c4a.dir/build
+make[1]: 进入目录“/home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_33c4a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_33c4a.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_33c4a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33c4a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_33c4a.dir/CheckFunctionExists.c.o -o cmTC_33c4a  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_33c4a.dir/build.make:99：cmTC_33c4a] 错误 1
+make[1]: 离开目录“/home/xulin/proseco_workspace/build_isolated/ros_proseco_planning/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_33c4a/fast] 错误 2
+
+
+

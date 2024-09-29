@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/xulin/proseco_workspace/devel_isolated/ros_proseco_planning/setup.sh

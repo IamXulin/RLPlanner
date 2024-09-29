@@ -1,0 +1,87 @@
+[35m[1mConsolidate compiler generated dependencies of target proseco_planning[0m
+[  1%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/action/action.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/action/actionSpace.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/action/actionSpaceRectangle.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/action/noiseGenerator.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/agent/agent.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/agent/cost_model/costContinuous.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/agent/cost_model/costLinear.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/agent/cost_model/costExponential.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/agent/cost_model/costModel.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/agent/cost_model/costLinearCooperative.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/agent/cost_model/costNonLinear.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/agent/desire.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/agent/vehicle.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/collision_checker/collisionCheckerCircleApproximation.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/config/computeOptions.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/config/configuration.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/config/defaultConfiguration.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/collision_checker/collisionChecker.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/config/outputOptions.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/config/scenarioOptions.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/exporters/exporter.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/exporters/jsonExporter.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/exporters/msgPackExporter.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/math/mathlib.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/monteCarloTreeSearch.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/node.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/expansion/expansionUCT.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/expansionPolicy.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/final_selection/finalSelectionKernelRegressionLCB.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/final_selection/finalSelectionMaxActionValue.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/final_selection/finalSelectionMaxVisitCount.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/final_selection/finalSelectionMostTrusted.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/final_selection/finalSelectionSampleExpQ.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/finalSelectionPolicy.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/policy.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/selection/selectionUCTProgressiveWidening.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/selectionPolicy.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/simulation/simulationMultiThread.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/simulation/simulationSingleThread.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/simulationPolicy.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/update/updateUCT.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/policies/updatePolicy.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/scenarioEvaluation.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/search_guide/searchGuide.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/search_guide/searchGuideBlindValue.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/search_guide/searchGuideRandom.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/trajectory/constantacceleration.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/trajectory/polynomialgenerator.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/trajectory/trajectory.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/trajectory/trajectorygenerator.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/util/utilities.cpp.o[0m
+[ 67%] [32m[1mLinking CXX shared library /home/xulin/proseco_workspace/devel/.private/proseco_planning/lib/libproseco_planning.so[0m
+[ 67%] Built target proseco_planning
+[35m[1mConsolidate compiler generated dependencies of target proseco_planning_tool_action_analysis[0m
+[35m[1mConsolidate compiler generated dependencies of target proseco_planning_tool_state_analysis[0m
+[35m[1mConsolidate compiler generated dependencies of target proseco_planning_tool_trajectory_analysis[0m
+[ 68%] [32mBuilding CXX object src/tools/CMakeFiles/proseco_planning_tool_action_analysis.dir/actionAnalysis.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/tools/CMakeFiles/proseco_planning_tool_state_analysis.dir/stateAnalysis.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/tools/CMakeFiles/proseco_planning_tool_trajectory_analysis.dir/trajectoryAnalysis.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target proseco_planning_test[0m
+[ 72%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/test_proseco_planning.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/test_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/test_invalid.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/test_json_msgpack.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/action/test_actionClass.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/agent/test_agent.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/agent/test_desire.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/agent/test_vehicle.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/agent/cost_model/test_potential.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/agent/cost_model/test_nonlinear.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/collision_checker/test_collisionChecker.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/math/test_mathlib.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/policies/test_policies.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/policies/final_selection/test_finalSelectionKernelRegressionLCB.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/policies/update/test_updatePolicy.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/policies/final_selection/test_finalSelectionSampleExpQ.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/policies/test_similarity_update.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/tests/CMakeFiles/proseco_planning_test.dir/trajectory/test_trajectoryGenerator.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable /home/xulin/proseco_workspace/devel/.private/proseco_planning/lib/proseco_planning/proseco_planning_tool_trajectory_analysis[0m
+[ 96%] Built target proseco_planning_tool_trajectory_analysis
+[ 97%] [32m[1mLinking CXX executable /home/xulin/proseco_workspace/devel/.private/proseco_planning/lib/proseco_planning/proseco_planning_tool_state_analysis[0m
+[ 97%] Built target proseco_planning_tool_state_analysis
+[ 98%] [32m[1mLinking CXX executable /home/xulin/proseco_workspace/devel/.private/proseco_planning/lib/proseco_planning/proseco_planning_tool_action_analysis[0m
+[ 98%] Built target proseco_planning_tool_action_analysis
+[100%] [32m[1mLinking CXX executable /home/xulin/proseco_workspace/devel/.private/proseco_planning/lib/proseco_planning/proseco_planning_test[0m
+[100%] Built target proseco_planning_test

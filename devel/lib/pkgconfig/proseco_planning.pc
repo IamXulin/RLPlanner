@@ -1,0 +1,8 @@
+prefix=/home/xulin/proseco_workspace/devel
+
+Name: proseco_planning
+Description: Description of proseco_planning
+Version: 0.7.0
+Cflags: -I/home/xulin/proseco_workspace/src/proseco_planning/include -I/home/xulin/proseco_workspace/src/proseco_planning/lib/json/include -I/usr/local/include/eigen3
+Libs: -L${prefix}/lib -lproseco_planning
+Requires: 

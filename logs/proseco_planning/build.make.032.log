@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target proseco_planning[0m
+[  1%] [32mBuilding CXX object CMakeFiles/proseco_planning.dir/src/proseco_planning/agent/agent.cpp.o[0m
+[  2%] [32m[1mLinking CXX shared library /home/xulin/proseco_workspace/devel/.private/proseco_planning/lib/libproseco_planning.so[0m
+[ 67%] Built target proseco_planning
+[ 68%] [32m[1mLinking CXX executable /home/xulin/proseco_workspace/devel/.private/proseco_planning/lib/proseco_planning/proseco_planning_tool_action_analysis[0m
+[ 70%] [32m[1mLinking CXX executable /home/xulin/proseco_workspace/devel/.private/proseco_planning/lib/proseco_planning/proseco_planning_tool_state_analysis[0m
+[ 71%] [32m[1mLinking CXX executable /home/xulin/proseco_workspace/devel/.private/proseco_planning/lib/proseco_planning/proseco_planning_tool_trajectory_analysis[0m
+[ 72%] [32m[1mLinking CXX executable /home/xulin/proseco_workspace/devel/.private/proseco_planning/lib/proseco_planning/proseco_planning_test[0m
+[ 74%] Built target proseco_planning_tool_state_analysis
+[ 75%] Built target proseco_planning_tool_action_analysis
+[ 76%] Built target proseco_planning_tool_trajectory_analysis
+[100%] Built target proseco_planning_test

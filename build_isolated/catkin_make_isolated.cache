@@ -1,0 +1,2 @@
+proseco_planning:ros_proseco_planning
+-DCMAKE_BUILD_TYPE=DEBUG -DPROSECO_RUN_TEST=ON -DPYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3 -G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/xulin/proseco_workspace/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/xulin/proseco_workspace/install_isolated

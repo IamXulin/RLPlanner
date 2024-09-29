@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target proseco_planning_node[0m
+[ 33%] [32m[1mLinking CXX executable /home/xulin/proseco_workspace/devel/.private/ros_proseco_planning/lib/ros_proseco_planning/proseco_planning_node[0m
+[100%] Built target proseco_planning_node

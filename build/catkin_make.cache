@@ -1,0 +1,2 @@
+proseco_planning:ros_proseco_planning
+-DCATKIN_DEVEL_PREFIX=/home/xulin/proseco_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/xulin/proseco_workspace/install -G Unix Makefiles

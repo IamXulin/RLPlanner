@@ -1,0 +1,12 @@
+Symlinking /home/xulin/proseco_workspace/devel/./setup.zsh
+Symlinking /home/xulin/proseco_workspace/devel/./setup.sh
+Symlinking /home/xulin/proseco_workspace/devel/./env.sh
+Symlinking /home/xulin/proseco_workspace/devel/./local_setup.bash
+Symlinking /home/xulin/proseco_workspace/devel/./local_setup.sh
+Symlinking /home/xulin/proseco_workspace/devel/./setup.bash
+Symlinking /home/xulin/proseco_workspace/devel/./local_setup.zsh
+Symlinking /home/xulin/proseco_workspace/devel/./cmake.lock
+Symlinking /home/xulin/proseco_workspace/devel/./_setup_util.py
+Symlinking /home/xulin/proseco_workspace/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/xulin/proseco_workspace/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/xulin/proseco_workspace/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

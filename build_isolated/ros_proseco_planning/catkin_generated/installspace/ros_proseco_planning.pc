@@ -1,0 +1,8 @@
+prefix=/home/xulin/proseco_workspace/install_isolated
+
+Name: ros_proseco_planning
+Description: Description of ros_proseco_planning
+Version: 0.7.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: proseco_planning

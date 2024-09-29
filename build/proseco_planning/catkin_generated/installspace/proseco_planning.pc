@@ -1,0 +1,8 @@
+prefix=/home/xulin/proseco_workspace/install
+
+Name: proseco_planning
+Description: Description of proseco_planning
+Version: 0.7.0
+Cflags: -I${prefix}/include -I/usr/local/include/eigen3
+Libs: -L${prefix}/lib -lproseco_planning
+Requires: 

@@ -1,0 +1,8 @@
+In file included from [01m[K/home/xulin/proseco_workspace/src/proseco_planning/src/proseco_planning/agent/agent.cpp:9[m[K:
+[01m[K/home/xulin/proseco_workspace/src/proseco_planning/include/matplotlibcpp.h:5:10:[m[K [01;31m[Kfatal error: [m[KPython.h: 没有那个文件或目录
+    5 | #include [01;31m[K<Python.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/proseco_planning.dir/build.make:132：CMakeFiles/proseco_planning.dir/src/proseco_planning/agent/agent.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:335：CMakeFiles/proseco_planning.dir/all] 错误 2
+make: *** [Makefile:146：all] 错误 2
